@@ -16,7 +16,9 @@ Failures.csv: These are the records of component replacements due to failures. E
 
 ## Code Structure
 
-pm_telemetry is the helper function, which is a class by itself, to read the telemetry data and merge the other features/targets.
+pm_telemetry.py is the helper function, which is a class by itself, to read the telemetry data and merge the other features/targets.
 
-Each python file is a meant to do just 1 analysis/model/graph, and is named according to what they should function. Other than the pm_telemetry.py, the other files are meant to be run individually when desired. 
+test_pm_telemetry.py is the test for pm_telemetry, use it to ensure the functions in pm_telemetry is running correctly. 
+
+Each python file is a meant to do just 1 analysis/model/graph, and is named according to what they should function. Other than the pm_telemetry.py and test_pm_telemetry, the other files are meant to be run individually when desired. 
 
